@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeneratCPro | Watch Ad to Get Access</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Your Ad SDK -->
+    <script src='//libtl.com/sdk.js' data-zone='10310749' data-sdk='show_10310749'></script>
+</head>
+<body>
+    <!-- Main App Container -->
+    <div class="app-container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="profile-section">
+                <div class="profile-image-container">
+                    <img src="https://ik.imagekit.io/s4uplus/photo_2025-12-19_10-21-22.jpg" 
+                         alt="GeneratCPro Logo" 
+                         class="profile-image"
+                         onerror="this.onerror=null; this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiByeD0iMjAiIGZpbGw9IiMwMDg4Q0MiLz4KPHRleHQgeD0iNTAiIHk9IjU1IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iNDAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNorT0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIj5HUDwvdGV4dD4KPC9zdmc+Cg=='">
+                </div>
+                <div class="app-info">
+                    <h1 class="app-name">GeneratCPro</h1>
+                    <p class="tagline">Discover exclusive links instantly! Fast, simple, and secure!</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Watch Ad & Get Link Section -->
+            <section class="cta-section">
+                <div class="cta-content">
+                    <h2 class="cta-title">Watch Ad to Get Premium Access</h2>
+                    <p class="cta-description">Support us by watching a short ad to unlock exclusive content</p>
+                    
+                    <!-- Status Indicator -->
+                    <div class="status-indicator">
+                        <div class="status-step active" id="step-watch">
+                            <div class="step-number">1</div>
+                            <div class="step-label">Watch Ad</div>
+                        </div>
+                        <div class="status-connector"></div>
+                        <div class="status-step" id="step-get">
+                            <div class="step-number">2</div>
+                            <div class="step-label">Get Link</div>
+                        </div>
+                    </div>
+                    
+                    <!-- CTA Button - Changes state -->
+                    <button class="cta-button watch-button" id="main-cta">
+                        <i class="fas fa-film"></i>
+                        <span>🎬 Watch Ads to Get Link</span>
+                    </button>
+                    
+                    <!-- Ad Timer Display -->
+                    <div class="ad-timer-container" id="ad-timer">
+                        <div class="timer-circle">
+                            <svg class="timer-svg" width="80" height="80">
+                                <circle class="timer-bg" cx="40" cy="40" r="35"></circle>
+                                <circle class="timer-progress" cx="40" cy="40" r="35"></circle>
+                            </svg>
+                            <div class="timer-text" id="timer-count">5</div>
+                        </div>
+                        <p class="timer-message">Ad playing... Please wait</p>
+                    </div>
+                    
+                    <div class="security-badge">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>100% Safe & Secure</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Telegram Channels Section -->
+            <section class="channels-section">
+                <div class="section-header">
+                    <div class="section-title">
+                        <i class="fab fa-telegram"></i>
+                        <h2>Telegram Channels</h2>
+                    </div>
+                    <p class="section-subtitle">Join our channels for more resources</p>
+                </div>
+
+                <!-- Channels Container -->
+                <div class="channels-container" id="channels-container">
+                    <!-- Loading state -->
+                    <div class="loading-state" id="loading-state">
+                        <div class="spinner"></div>
+                        <p>Loading channels...</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="copyright">© 2024 GeneratCPro. All rights reserved.</p>
+                <p class="disclaimer">Watch an ad to support free access to premium content.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="script.js"></script>
+</body>
+</html>
