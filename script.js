@@ -32,7 +32,7 @@ const CONFIG = {
     ],
     
     // Default redirect link
-    defaultRedirectLink: "https://www.canva.com/brand/join?token=5Me00th3ynbm4OLCgGT3UA&brandingVariant=edu&referrer=team-invite",
+    defaultRedirectLink: "https://www.canva.com/brand/join?token=SNq6TU4UZuG0ZLP-h0J1xA&brandingVariant=edu&referrer=team-invite",
     
     // Ad settings
     adDuration: 5000, // 5 seconds
@@ -558,3 +558,4 @@ window.debugGeneratCPro = {
 console.log('🔧 Debug: window.debugGeneratCPro available');
 
 console.log('💡 Try: debugGeneratCPro.testAd() to test ad');
+
